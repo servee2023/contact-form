@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sarvee</title>
+</head>
+<body>
+        <img src="servee.png" class="png" alt="servee">
+    <section class="contact" id="contact">
+        <h2 class="heading">Home Service</h2>
+        <h3 class="heading"><span>BOOK NOW!</span></h3>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" class="name" title="Enter your full name" required>
+                <input type="number" placeholder="Mobile Number" title="Enter Your correct Mobile number" class="number" required>
+                <input type="email" placeholder="Email Address" class="email" title="Enter your email">
+                <input type="date" placeholder="Enter booking date" class="date">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Village/City" class="village" required>
+                <input type="text" placeholder="Post office" class="post_office" required>
+                <input type="text" placeholder="Police Station" class="police_station" required>
+                <input type="text" placeholder="Landmark" class="landmark" required>
+                <input type="number" placeholder="Pin Code" title="Please enter your pin Code" class="pin" required>
+            </div>
+            
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Problem" class="message" required></textarea>
+            <button type="submit" onclick="sendwhatsapp();" class="btn">Send via WhatsApp</button>
+            
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
